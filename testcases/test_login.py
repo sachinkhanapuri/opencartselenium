@@ -31,6 +31,7 @@ class TestLogin:
         self.accountlogin.submit()
         time.sleep(4)
 
+    @pytest.mark.sanity
     def testdemo(self):
         print("this is sample test")
 
