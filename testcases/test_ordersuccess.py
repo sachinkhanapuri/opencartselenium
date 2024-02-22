@@ -8,6 +8,7 @@ from utilities.readproperties import ReadConfig
 from selenium.webdriver.support.select import Select
 
 class TestOrderSuccess:
+    @pytest.mark.sanity
     def testordersuccess(self,setup):
         self.driver=setup
 
